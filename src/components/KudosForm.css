@@ -1,0 +1,85 @@
+/* Main form container */
+.kudos-form {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 500px;
+  margin: 0 auto 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Form title */
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+/* Each form field container */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels for inputs */
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+/* All input fields, textareas, and selects */
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+/* When input is focused (clicked/active) */
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Textarea specific */
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit button */
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Button hover state */
+.submit-button:hover {
+  background-color: #2563eb;
+}
+
+/* Button click state */
+.submit-button:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,16 @@
+/* I'm targeting the demo-container class */
+.demo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* I'm targeting the box-example class */
+.box-example {
+  width: 200px;
+  height: 100px;
+  padding: 40px;
+  margin: 40px;
+  border: 3px solid #3b82f6;
+  background-color: #f8fafc;
+}
