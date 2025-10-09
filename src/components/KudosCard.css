@@ -4,7 +4,7 @@
 
 	/* Box Model */
 	width: 100%; /* Full width of container */
-	max-width: 400px; /* Maximum width */
+	max-width: 350px; /* Maximum width */
 	padding: 24px; /* Space inside the card */
 	margin: 16px 0; /* Space above and below */
 	border: 1px solid #e2e8f0; /* Light gray border */
