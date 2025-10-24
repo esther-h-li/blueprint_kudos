@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -39,7 +39,7 @@
 /* Add to App.css or create App.css */
 .app-container {
   min-height: 100vh;
-  background-color: #f8fafc;
+  background-color: #e4eff3;
   padding: 32px 0;
 }
 
@@ -53,7 +53,7 @@
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-  color: #0f172a;
+  color: #37524a;
   margin-bottom: 32px;
 }
 

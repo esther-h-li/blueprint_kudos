@@ -1,7 +1,7 @@
 /* Main form container */
 .kudos-form {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
+  background-color: #e7faf0;
+  border: 2px solid #c9def7;
   border-radius: 12px;
   padding: 32px;
   max-width: 500px;
@@ -13,7 +13,7 @@
 .form-title {
   font-size: 24px;
   font-weight: 600;
-  color: #0f172a;
+  color: #37524a;
   margin: 0 0 24px 0;
   text-align: center;
 }
@@ -28,7 +28,7 @@
   display: block;
   font-size: 14px;
   font-weight: 500;
-  color: #475569;
+  color: #476956;
   margin-bottom: 8px;
 }
 
@@ -50,7 +50,7 @@
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #3b82f6;
+  border-color: #37524a;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
@@ -64,7 +64,7 @@
 .submit-button {
   width: 100%;
   padding: 14px;
-  background-color: #3b82f6;
+  background-color: #3c9174;
   color: white;
   border: none;
   border-radius: 8px;
@@ -76,7 +76,7 @@
 
 /* Button hover state */
 .submit-button:hover {
-  background-color: #2563eb;
+  background-color: #37524a;
 }
 
 /* Button click state */

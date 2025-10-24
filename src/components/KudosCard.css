@@ -16,7 +16,7 @@
 	gap: 16px; /* Space between children */
 	
 	/* Colors */
-	background-color: #ffffff; /* White background */
+	background-color: #e7faf0; /* White background */
 	color: #1e293b; /* Dark gray text */
 	
 	/* Typography */
@@ -48,7 +48,7 @@
 .recipient-name {
 	font-size: 18px; /* Larger font size */
 	font-weight: 600; /* Bold text */
-	color: #0f172a; /* Very dark gray */
+	color: #18453a; /* Very dark gray */
 	margin: 0; /* Remove default margin */
 }
 
@@ -70,14 +70,14 @@
   
 .kudos-type.feedback {
 	background-color: #f3f4f6; /* Light gray background */
-	color: #374151; /* Dark gray text */
+	color: #3e625c; /* Dark gray text */
 }
 
 
 .kudos-message {
 	font-size: 15px; /* Slightly larger font */
 	line-height: 1.6; /* Good line spacing */
-	color: #475569; /* Medium gray text */
+	color: #546947; /* Medium gray text */
 	margin: 0; /* Remove default margin */
 	flex-grow: 1; /* Take up available space */
 }
@@ -95,9 +95,11 @@
 
 .giver-name {
 	font-weight: 500; /* Medium bold */
+	color: #18453a; /* Very dark gray */
+
 }
 
 
 .kudos-date {
-	color: #94a3b8; /* Very light gray */
+	color: #a5b894; /* Very light gray */
 }
