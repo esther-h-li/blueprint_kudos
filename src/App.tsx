@@ -2,16 +2,21 @@ import React from 'react';
 import {useState} from 'react';
 import { KudosCard } from './components/KudosCard';
 import { KudosForm } from './components/KudosForm';  // ← Add this
+import { Sidebar } from './components/Sidebar'; 
+
 import './components/KudosCard.css';
 import './components/KudosForm.css';  // ← Add this
 import './App.css';
-
+import './components/Sidebar.css'; 
 interface Kudos {
   recipient: string;
   message: string;
   giver: string;
   type: 'kudos' | 'feedback';
   date: string
+}
+interface Sidebar{
+
 }
 function App(){
   const [kudosList, setKudosList] = useState<Kudos[]>([
@@ -45,14 +50,24 @@ function App(){
 
 
   return (
+  
     <div className="app-container">
-      <div className="app-content">
+     <div>
+        <Sidebar></Sidebar>
+
+     </div>
+      <div className="app-content" style = {{flex: 1}}>
         <h1 className="app-title">
           🎉 Kudos Board  {/* ← Changed from "Kudos Cards Demo" */}
         </h1>
         
-        {/* Add the form here! */}
+        {/* Add the form here! */
+        
+
+        }
         <KudosForm onSubmit={handleAddKudos} />
+       
+
         
         <div className="cards-grid">
           {kudosList.map((kudos,index) => (
